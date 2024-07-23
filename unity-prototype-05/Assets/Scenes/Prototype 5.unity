@@ -171,6 +171,7 @@ MonoBehaviour:
   - {fileID: 1413628484538852100, guid: 0f64aa7d6fe7068219d1d3def34d907c, type: 3}
   - {fileID: 7877350820622123731, guid: 6e0a1c0aa13d0af1eb471dd10688461c, type: 3}
   - {fileID: 1499779274735351801, guid: 1459224178cdb861d8585b59a49a526e, type: 3}
+  scoreText: {fileID: 1425698868}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,7 +633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Score
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8887514be60924b0ba1319bd10d63d0f, type: 2}
   m_sharedMaterial: {fileID: 21010144202549244, guid: 8887514be60924b0ba1319bd10d63d0f, type: 2}
