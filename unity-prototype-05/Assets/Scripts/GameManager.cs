@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI gameOverText;
+    public Button restartButton;
     private float spawnRate = 1F;
     private int score;
     public bool isGameActive;
@@ -31,6 +33,7 @@ public class GameManager : MonoBehaviour
     public void GameOver(){
         gameOverText.gameObject.SetActive(true);
         isGameActive = false;
+        restartButton.gameObject.SetActive(true); 
     }
 
     public void RestartGame(){

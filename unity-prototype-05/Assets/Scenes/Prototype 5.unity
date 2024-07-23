@@ -173,6 +173,7 @@ MonoBehaviour:
   - {fileID: 1499779274735351801, guid: 1459224178cdb861d8585b59a49a526e, type: 3}
   scoreText: {fileID: 1425698868}
   gameOverText: {fileID: 2059726535}
+  restartButton: {fileID: 1928936231}
   isGameActive: 0
 --- !u!1 &170076733
 GameObject:
@@ -988,7 +989,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1928936230
 RectTransform:
   m_ObjectHideFlags: 0
@@ -998,7 +999,7 @@ RectTransform:
   m_GameObject: {fileID: 1928936229}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1997899368}
@@ -1031,10 +1032,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.4887018, g: 0.27843145, b: 0.92941177, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.6343315, g: 0.4625756, b: 0.990566, a: 1}
+    m_PressedColor: {r: 0.20453225, g: 0, b: 0.62874734, a: 1}
+    m_SelectedColor: {r: 0.67271584, g: 0.51589215, b: 1, a: 1}
+    m_DisabledColor: {r: 0.21515514, g: 0.1723967, b: 0.30383933, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
