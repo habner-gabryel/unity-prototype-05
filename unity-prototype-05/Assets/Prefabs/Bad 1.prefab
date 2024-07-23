@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4913146577688966414}
   - component: {fileID: 4822534490798259514}
   - component: {fileID: 3858465103832088043}
-  - component: {fileID: -1125281602310880600}
+  - component: {fileID: -9053949441726703000}
   m_Layer: 0
   m_Name: Bad 1
   m_TagString: Untagged
@@ -134,7 +134,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-1125281602310880600
+--- !u!114 &-9053949441726703000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

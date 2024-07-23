@@ -5,11 +5,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public List<GameObject> targets;
-    private float spawnRate;
+    private float spawnRate = 1F;
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(SpawnTarget());
     }
 
     IEnumerator SpawnTarget(){

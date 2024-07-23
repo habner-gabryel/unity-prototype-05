@@ -6,7 +6,7 @@ public class NewBehaviourScript : MonoBehaviour
 {
     private Rigidbody targetRb;
     private float minSpeed = 12;
-    private float maxSpeed = 25;
+    private float maxSpeed = 18;
     private float maxTorq = 10;
     private float xRange = 4;
     private float ySpawn = -6;
