@@ -20,6 +20,13 @@ public class NewBehaviourScript : MonoBehaviour
         transform.position = RandomSpawnPos();
     }
 
+    private void OnMouseDown(){
+        Destroy(gameObject);
+    }
+    private void OnTriggerEnter(Collider other){
+        Destroy(gameObject);
+    }
+
     Vector3 RandomForce(){
         return Vector3.up * Random.Range(minSpeed, maxSpeed);
     }
