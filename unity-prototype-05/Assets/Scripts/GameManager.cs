@@ -22,6 +22,12 @@ public class GameManager : MonoBehaviour
         UpdateScore(0);
     }
 
+    public void StartGame() {
+        isGameActive = true;
+        score = 0;
+        StartCoroutine(SpawnTarget());
+        UpdateScore(0);
+    }
     IEnumerator SpawnTarget(){
         while(isGameActive){
             yield return new WaitForSeconds(spawnRate);
