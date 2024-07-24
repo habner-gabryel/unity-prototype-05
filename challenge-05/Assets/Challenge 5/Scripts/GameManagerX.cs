@@ -11,7 +11,8 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public GameObject titleScreen;
     public Button restartButton; 
-
+    public float time = 60F;
+    public TextMeshProUGUI timeText;
     public List<GameObject> targetPrefabs;
 
     private int score;
@@ -58,6 +59,21 @@ public class GameManagerX : MonoBehaviour
         Vector3 spawnPosition = new Vector3(spawnPosX, spawnPosY, 0);
         return spawnPosition;
 
+    }
+
+    public void Update(){
+        if (isGameActive){
+            UpdateTime();
+        }
+    }
+
+    public void UpdateTime(){
+        time -= Time.deltaTime;
+        timeText.text = ("time :" + Mathf.RoundToInt(time));
+        if (time <= 0)
+        {
+            GameOver();
+        }
     }
 
     // Generates random square index from 0 to 3, which determines which square the target will appear in
